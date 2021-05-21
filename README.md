@@ -1,4 +1,4 @@
-[![Support](https://img.shields.io/badge/paid%20support-hello%40bsensus.com-blue)](mailto:hello@bsensus.com) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/bsensus)
+[![Support](https://img.shields.io/badge/Paid%20support-hello%40bsensus.com-blue)](mailto:hello@bsensus.com) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/bsensus)
 
 # warp7-php8.0
 
