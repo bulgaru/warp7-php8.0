@@ -1,0 +1,296 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nano2 v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-07-03 13:49:30+0000\n"
+"Last-Translator: surbma <peter@surbma.hu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:13
+#@ warp
+msgid "Page not found"
+msgstr "Az oldal nem található"
+
+#: 404.php:13
+#@ warp
+msgid "404_page_message"
+msgstr "404_page_message"
+
+#: warp/systems/wordpress/layouts/_pagination.php:49
+#@ warp
+msgid "First"
+msgstr "Első"
+
+#: warp/systems/wordpress/layouts/_pagination.php:69
+#@ warp
+msgid "Last"
+msgstr "Utolsó"
+
+#: warp/systems/wordpress/layouts/_post.php:11
+#: warp/systems/wordpress/layouts/single.php:15
+#, php-format
+#@ warp
+msgid "Written by %s on %s. Posted in %s"
+msgstr "Szerző: %s - Dátum: %s - Kategória: %s"
+
+#: warp/systems/wordpress/layouts/_post.php:29
+#@ warp
+msgid "Continue Reading"
+msgstr "Tovább"
+
+#: warp/systems/wordpress/layouts/_post.php:30
+#@ warp
+msgid "No Comments"
+msgstr "Nincs hozzászólás"
+
+#: warp/systems/wordpress/layouts/_post.php:30
+#@ warp
+msgid "1 Comment"
+msgstr "1 hozzászólás"
+
+#: warp/systems/wordpress/layouts/_post.php:30
+#@ warp
+msgid "% Comments"
+msgstr "% hozzászólás"
+
+#: warp/systems/wordpress/layouts/_post.php:33
+#: warp/systems/wordpress/layouts/page.php:16
+#: warp/systems/wordpress/layouts/single.php:25
+#@ warp
+msgid "Edit this post."
+msgstr "Szerkesztés"
+
+#: warp/systems/wordpress/layouts/archive.php:8
+#, php-format
+#@ warp
+msgid "Posts Tagged %s"
+msgstr "Bejegyzések a következő címkével: %s"
+
+#: warp/systems/wordpress/layouts/archive.php:10
+#: warp/systems/wordpress/layouts/archive.php:12
+#: warp/systems/wordpress/layouts/archive.php:14
+#, php-format
+#@ warp
+msgid "Archive for %s"
+msgstr "Bejegyzések a következő kategóriában: %s"
+
+#: warp/systems/wordpress/layouts/archive.php:16
+#: warp/systems/wordpress/layouts/author.php:3
+#@ warp
+msgid "Author Archive"
+msgstr "Szerző bejegyzései"
+
+#: warp/systems/wordpress/layouts/archive.php:18
+#@ warp
+msgid "Blog Archives"
+msgstr "Bejegyzések"
+
+#: warp/systems/wordpress/layouts/archive.php:28
+#, php-format
+#@ warp
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Nincs bejegyzés a következő kategóriában: %s."
+
+#: warp/systems/wordpress/layouts/archive.php:30
+#@ warp
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Nincs bejegyzés ezzel a dátummal."
+
+#: warp/systems/wordpress/layouts/archive.php:33
+#, php-format
+#@ warp
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Nincs még bejegyzése a következő szerzőnek: %s."
+
+#: warp/systems/wordpress/layouts/archive.php:35
+#@ warp
+msgid "No posts found."
+msgstr "Nincs bejegyzés a feltételeknek megfelelően."
+
+#: warp/systems/wordpress/layouts/attachment.php:15
+#, php-format
+#@ warp
+msgid "Published by %s on %s"
+msgstr "Közzétette %s a következő dátumon: %s"
+
+#: warp/systems/wordpress/layouts/attachment.php:21
+#, php-format
+#@ warp
+msgid "Full size is %s pixels."
+msgstr "A teljes méret: %s pixel."
+
+#: warp/systems/wordpress/layouts/attachment.php:24
+#@ warp
+msgid "Link to full-size image"
+msgstr "Link a teljes méretű képhez"
+
+#: warp/systems/wordpress/layouts/attachment.php:40
+#@ warp
+msgid "Edit this attachment."
+msgstr "Szerkesztés"
+
+#: warp/systems/wordpress/layouts/comments.php:6
+#, php-format
+#@ warp
+msgid "Comments (%s)"
+msgstr "Hozzászólások (%s)"
+
+#: warp/systems/wordpress/layouts/comments.php:6
+#@ warp
+msgid "Comments are closed"
+msgstr "Hozzászólások kikapcsolva"
+
+#: warp/systems/wordpress/layouts/comments.php:47
+#, php-format
+#@ warp
+msgid "%1$s at %2$s"
+msgstr "%1$s - %2$s"
+
+#: warp/systems/wordpress/layouts/comments.php:49
+#@ default
+msgid "Edit"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/comments.php:59
+#@ warp
+msgid "Reply"
+msgstr "Válasz"
+
+#: warp/systems/wordpress/layouts/comments.php:63
+#@ warp
+msgid "Your comment is awaiting moderation."
+msgstr "A hozzászólás rendszer-moderációra várakozik."
+
+#: warp/systems/wordpress/layouts/comments.php:85
+#@ warp
+msgid "Leave a comment"
+msgstr "Hozzászólás beküldése"
+
+#: warp/systems/wordpress/layouts/comments.php:88
+#, php-format
+#@ warp
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Hozzászólás beküldéséhez <a href=\"%s\">be kell jelentkezni</a>."
+
+#: warp/systems/wordpress/layouts/comments.php:97
+#, php-format
+#@ warp
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "Bejelentkezve <a href=\"%s\">%s</a> néven."
+
+#: warp/systems/wordpress/layouts/comments.php:97
+#@ warp
+msgid "Log out of this account"
+msgstr "Kijelentkezés a felhasználói fiókból"
+
+#: warp/systems/wordpress/layouts/comments.php:97
+#@ warp
+msgid "Log out &raquo;"
+msgstr "Kijelentkezés &raquo;"
+
+#: warp/systems/wordpress/layouts/comments.php:104
+#@ warp
+msgid "Name"
+msgstr "Név"
+
+#: warp/systems/wordpress/layouts/comments.php:108
+#@ warp
+msgid "E-mail"
+msgstr "Email"
+
+#: warp/systems/wordpress/layouts/comments.php:112
+#@ warp
+msgid "Website"
+msgstr "Weboldal"
+
+#: warp/systems/wordpress/layouts/comments.php:122
+#@ warp
+msgid "Submit Comment"
+msgstr "Hozzászólás küldése"
+
+#: warp/systems/wordpress/layouts/comments.php:148
+#@ default
+msgid "Cancel"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/index.php:11
+#@ warp
+msgid "Not Found"
+msgstr "Nincs találat"
+
+#: warp/systems/wordpress/layouts/index.php:12
+#@ warp
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "A keresett oldal nem található."
+
+#: warp/systems/wordpress/layouts/mobile/search.php:2
+#: warp/systems/wordpress/layouts/widgets/search.php:2
+#@ warp
+msgid "search..."
+msgstr "keresés..."
+
+#: warp/systems/wordpress/layouts/search.php:5
+#@ warp
+msgid "Search Results for"
+msgstr "Keresési találatok a következőre:"
+
+#: warp/systems/wordpress/layouts/search.php:13
+#@ warp
+msgid "No posts found. Try a different search?"
+msgstr "Nincs találat a keresésnek megfelelően. Új keresés indítása?"
+
+#: warp/systems/wordpress/layouts/single.php:23
+#@ warp
+msgid "Tags: "
+msgstr "Címkék: "
+
+#: warp/systems/wordpress/layouts/single.php:28
+#, php-format
+#@ warp
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr "<a href=\"%s\">Visszakövetés</a> saját weboldalról."
+
+#: warp/systems/wordpress/layouts/widgets/rss.php:4
+#@ default
+msgid "Read feed"
+msgstr ""
+
+#: warp/systems/wordpress/layouts/widgets/search.php:9
+#@ warp
+msgid "Search Results"
+msgstr "Keresési eredmény"
+
+#: warp/systems/wordpress/layouts/widgets/search.php:9
+#@ warp
+msgid "More Results"
+msgstr "Több eredmény"
+
+#: warp/systems/wordpress/layouts/widgets/search.php:9
+#@ warp
+msgid "No results found"
+msgstr "Nincs találat"
+
+#: warp/systems/wordpress/widgets/breadcrumbs/breadcrumbs.php:112
+#: warp/systems/wordpress/widgets/sidebar/sidebar.php:47
+#@ warp
+msgid "Title:"
+msgstr "Cím:"
+
+#: warp/systems/wordpress/widgets/breadcrumbs/breadcrumbs.php:116
+#@ warp
+msgid "Home title:"
+msgstr "Kezdőlap címe:"
+

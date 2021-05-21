@@ -1,0 +1,42 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Additional System Stylesheet for WordPress 3.x
+ */
+
+
+/* Calendar
+----------------------------------------------------------------------------------------------------*/
+
+table.calendar {
+    width: 100%;
+    margin: auto;
+    border-spacing: 2px;
+}
+
+table.calendar caption {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+table.calendar th { width: 14%; }
+
+table.calendar th,
+table.calendar td {
+    padding: 0;
+    text-align: center;
+    line-height: 25px;
+}
+
+table.calendar td a {
+    display: block;
+    line-height: 25px;
+}
+
+table.calendar tfoot td {
+    padding: 0 5px; 
+    text-align: right;
+}
+table.calendar tfoot td:first-child { text-align: left; }
+

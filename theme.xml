@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>Master</name>
+	<version>1.0.0</version>
+	<creationDate>March 2014</creationDate>
+	<author>YOOtheme</author>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+    <copyright>Copyright (C) YOOtheme GmbH</copyright>
+    <license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<description>Master theme of the YOOtheme club. It is based on YOOtheme's Warp theme framework.</description>
+    <positions>
+        <position settings="assignment">search</position>
+        <position settings="assignment">logo</position>
+        <position settings="assignment">logo-small</position>
+        <position settings="title assignment">menu</position>
+        <position settings="title assignment">toolbar-l</position>
+        <position settings="title assignment">toolbar-r</position>
+        <position settings="assignment">headerbar</position>
+        <position settings="assignment">breadcrumbs</position>
+        <position>top-a</position>
+        <position>top-b</position>
+        <position>bottom-a</position>
+        <position>bottom-b</position>
+        <position>main-top</position>
+        <position>main-bottom</position>
+        <position>sidebar-a</position>
+        <position>sidebar-b</position>
+        <position settings="assignment">footer</position>
+        <position settings="title assignment">offcanvas</position>
+        <position settings="">debug</position>
+    </positions>
+</theme>

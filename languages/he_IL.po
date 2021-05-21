@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 17:23+0100\n"
+"PO-Revision-Date: 2012-07-13 16:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: layouts/404.php:3
+msgid "Error 404 - Not Found"
+msgstr "שגיאה 404 - לא נמצא"
+
+#: layouts/404.php:4
+msgid "The page you requested does not exist, or has been moved."
+msgstr "הדף המבוקש לא קיים, או שמיקומו שונה"
+
+#: layouts/_pagination.php:43
+msgid "First"
+msgstr "ראשון"
+
+#: layouts/_pagination.php:63
+msgid "Last"
+msgstr "אחרון"
+
+#: layouts/_post.php:5
+#: layouts/single.php:10
+#, php-format
+msgid "Written by %s on %s. Posted in %s"
+msgstr "נכתב על ידי %s ב%s. פורסם ב%s"
+
+#: layouts/_post.php:10
+msgid "Continue Reading"
+msgstr "המשך >>"
+
+#: layouts/_post.php:11
+msgid "No Comments"
+msgstr "אין תגובות"
+
+#: layouts/_post.php:11
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#: layouts/_post.php:11
+msgid "%s Comments"
+msgstr "%s תגובות"
+
+#: layouts/_post.php:14
+#: layouts/single.php:14
+msgid "Tags: "
+msgstr "תגיות: "
+
+#: layouts/_post.php:16
+#: layouts/page.php:12
+#: layouts/single.php:16
+msgid "Edit this post."
+msgstr "עריכת פוסט זה."
+
+#: layouts/archive.php:8
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "פוסטים שתויגו %s"
+
+#: layouts/archive.php:10
+#: layouts/archive.php:12
+#: layouts/archive.php:14
+#, php-format
+msgid "Archive for %s"
+msgstr "ארכיון עבור %s"
+
+#: layouts/archive.php:16
+#: layouts/author.php:3
+msgid "Author Archive"
+msgstr "ארכיון הכותב"
+
+#: layouts/archive.php:18
+msgid "Blog Archives"
+msgstr "ארכיוני בלוגים"
+
+#: layouts/archive.php:28
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "מצטערים, אבל אין עדיין פוסטים בקטגוריה %s."
+
+#: layouts/archive.php:30
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "מצטערים, אבל אין עדיין פוסטים לתאריך זה."
+
+#: layouts/archive.php:33
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "מצטערים, אבל אין עדיין פוסטים של %s."
+
+#: layouts/archive.php:35
+msgid "No posts found."
+msgstr "לא נמצאו פוסטים."
+
+#: layouts/attachment.php:10
+#, php-format
+msgid "Published by %s on %s"
+msgstr "פורסם על ידי %s ב%s"
+
+#: layouts/attachment.php:15
+#, php-format
+msgid "Full size is %s pixels."
+msgstr "הגודל המלא הוא %s פיקסלים"
+
+#: layouts/attachment.php:18
+msgid "Link to full-size image"
+msgstr "קישור לתמונה המלאה"
+
+#: layouts/attachment.php:32
+msgid "Edit this attachment."
+msgstr "עריכת הקובץ המצורף"
+
+#: layouts/comments.php:6
+#, php-format
+msgid "Comments (%s)"
+msgstr "תגובות (%s)"
+
+#: layouts/comments.php:6
+msgid "Comments are closed"
+msgstr "סגור לתגובה"
+
+#: layouts/comments.php:47
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s ב%2$s"
+
+#: layouts/comments.php:49
+msgid "Edit"
+msgstr "עריכה"
+
+#: layouts/comments.php:59
+msgid "Reply"
+msgstr "תגובה"
+
+#: layouts/comments.php:63
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה ממתינה לאישור."
+
+#: layouts/comments.php:90
+msgid "Cancel"
+msgstr "ביטול"
+
+#: layouts/comments.php:133
+msgid "Leave a comment"
+msgstr "הגיבו"
+
+#: layouts/comments.php:136
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "עליך <a href=\"%s\">להתחבר</a> כדי לפרסם תגובה."
+
+#: layouts/comments.php:146
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "מחובר כ<a href=\"%s\">%s</a>."
+
+#: layouts/comments.php:146
+msgid "Log out of this account"
+msgstr "התנתקות מחשבון זה"
+
+#: layouts/comments.php:146
+msgid "Log out &raquo;"
+msgstr "התנתקות &raquo;"
+
+#: layouts/comments.php:154
+msgid "Name"
+msgstr "שם"
+
+#: layouts/comments.php:159
+msgid "E-mail"
+msgstr "דוא''ל"
+
+#: layouts/comments.php:164
+msgid "Website"
+msgstr "אתר"
+
+#: layouts/comments.php:174
+msgid "Submit Comment"
+msgstr "שלח"
+
+#: layouts/index.php:11
+msgid "Not Found"
+msgstr "לא נמצא"
+
+#: layouts/index.php:12
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "מצטערים, אבל משאב זה לא קיים כאן."
+
+#: layouts/widgets/search.php:22
+msgid "Search Results"
+msgstr "תוצאות חיפוש"
+
+#: layouts/search.php:5
+msgid "Search Results for"
+msgstr "תוצאות חיפוש עבור"
+
+#: layouts/search.php:13
+msgid "No posts found. Try a different search?"
+msgstr "לא נמצאו פוסטים. לנסות חיפוש שונה?"
+
+#: layouts/single.php:19
+#, php-format
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr "<a href=\"%s\">Trackback</a> מהאתר שלך."
+
+#: layouts/widgets/rss.php:4
+msgid "Read feed"
+msgstr "קרא פיד"
+
+#: layouts/widgets/search.php:14
+msgid "search..."
+msgstr "חיפוש באתר..."
+
+#: layouts/widgets/search.php:22
+msgid "More Results"
+msgstr "תוצאות נוספות"
+
+#: layouts/widgets/search.php:22
+msgid "No results found"
+msgstr "לא נמצאו תוצאות"
+
+#: widgets/breadcrumbs/breadcrumbs.php:106
+msgid "Title:"
+msgstr "כותרת:"
+
+#: widgets/breadcrumbs/breadcrumbs.php:110
+msgid "Home title:"
+msgstr "כותרת בדף הבית:"
+
+# not used in all themes
+msgid "Written by"
+msgstr "נכתב על ידי"
+
+msgid "Published by"
+msgstr "פורסם על ידי"
+
+msgid "Posted in"
+msgstr "פורסם ב"
+
+msgid "Author"
+msgstr "כותב"
+
+msgid "Tags"
+msgstr "תגיות"
+
+msgid "Categories"
+msgstr "קטגוריות"
+
+msgid "Please update to a modern browser"
+msgstr "נא לעדכן את הדפדפן לגרסה חדשה"
+
+msgid "outdatedBrowser_page_message"
+msgstr "אתר זה מיועד לדפדפנים מודרניים. מומלץ לעדכן את גרסת הדפדפן על מנת <a href=\"?forwardOutdatedBrowser=1\">לחצו כאן</a>.פר את האבטחה וחוויית הגלישה. כדי להמשיך בכל זאת לאתר, לח"
+
+msgid "Page not found"
+msgstr "הדף לא נמצא"
+
+msgid "404_page_message"
+msgstr "הדף המבוקש לא קיים, או שהתרחשה שגיאה אחרת. <a href=\"javascript:history.go(-1)\">חזרה לדף הקודם</a>, או המשך ניווט ב<a href=\"%s\">%s</a>."
+

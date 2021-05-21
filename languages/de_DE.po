@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 17:23+0100\n"
+"PO-Revision-Date: 2012-07-13 16:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <info@yootheme.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: layouts/404.php:3
+msgid "Error 404 - Not Found"
+msgstr "Fehler 404 - Nicht gefunden."
+
+#: layouts/404.php:4
+msgid "The page you requested does not exist, or has been moved."
+msgstr "Die gewünschte Seite existiert nicht oder wurde verschoben."
+
+#: layouts/_pagination.php:43
+msgid "First"
+msgstr "Anfang"
+
+#: layouts/_pagination.php:63
+msgid "Last"
+msgstr "Ende"
+
+#: layouts/_post.php:5
+#: layouts/single.php:10
+#, php-format
+msgid "Written by %s on %s. Posted in %s"
+msgstr "Geschrieben von %s am %s in %s"
+
+#: layouts/_post.php:10
+msgid "Continue Reading"
+msgstr "Weiter lesen"
+
+#: layouts/_post.php:11
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: layouts/_post.php:11
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: layouts/_post.php:11
+msgid "% Comments"
+msgstr "% Kommentare"
+
+#: layouts/_post.php:14
+#: layouts/single.php:14
+msgid "Tags: "
+msgstr "Tags:"
+
+#: layouts/_post.php:16
+#: layouts/page.php:12
+#: layouts/single.php:16
+msgid "Edit this post."
+msgstr "Eintrag bearbeiten"
+
+#: layouts/archive.php:8
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Beiträge mit Tag %s"
+
+#: layouts/archive.php:10
+#: layouts/archive.php:12
+#: layouts/archive.php:14
+#, php-format
+msgid "Archive for %s"
+msgstr "Archiv für %s"
+
+#: layouts/archive.php:16
+#: layouts/author.php:3
+msgid "Author Archive"
+msgstr "Autor Archiv"
+
+#: layouts/archive.php:18
+msgid "Blog Archives"
+msgstr "Blog Archiv"
+
+#: layouts/archive.php:28
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "In der Kategorie %s befindet sich noch kein Beitrag."
+
+#: layouts/archive.php:30
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Für diese Zeit gibt es keine Beiträge. "
+
+#: layouts/archive.php:33
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Von %s gibt es noch keine Beiträge."
+
+#: layouts/archive.php:35
+msgid "No posts found."
+msgstr "Keine Beiträge gefunden."
+
+#: layouts/attachment.php:10
+#, php-format
+msgid "Published by %s on %s"
+msgstr "Veröffentlicht von %s am %s"
+
+#: layouts/attachment.php:15
+#, php-format
+msgid "Full size is %s pixels."
+msgstr "Die Originalgröße beträgt %s Pixel. "
+
+#: layouts/attachment.php:18
+msgid "Link to full-size image"
+msgstr "Link zur Originalgröße"
+
+#: layouts/attachment.php:32
+msgid "Edit this attachment."
+msgstr "Anhang bearbeiten"
+
+#: layouts/comments.php:6
+#, php-format
+msgid "Comments (%s)"
+msgstr "Kommentare (%s)"
+
+#: layouts/comments.php:6
+msgid "Comments are closed"
+msgstr "Kommentare sind deaktiviert"
+
+#: layouts/comments.php:47
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: layouts/comments.php:49
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: layouts/comments.php:59
+msgid "Reply"
+msgstr "Antworten"
+
+#: layouts/comments.php:63
+msgid "Your comment is awaiting moderation."
+msgstr "Der Kommentar muss noch freigeschaltet werden."
+
+#: layouts/comments.php:90
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: layouts/comments.php:133
+msgid "Leave a comment"
+msgstr "Kommentieren"
+
+#: layouts/comments.php:136
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Zum kommentieren bitte <a href=\"%s\">einloggen</a>."
+
+#: layouts/comments.php:146
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "Eingeloggt als <a href=\"%s\">%s</a>."
+
+#: layouts/comments.php:146
+msgid "Log out of this account"
+msgstr "Aus diesem Account ausloggen"
+
+#: layouts/comments.php:146
+msgid "Log out &raquo;"
+msgstr "Ausloggen &raquo;"
+
+#: layouts/comments.php:154
+msgid "Name"
+msgstr "Name"
+
+#: layouts/comments.php:159
+msgid "E-mail"
+msgstr "E-mail"
+
+#: layouts/comments.php:164
+msgid "Website"
+msgstr "Website"
+
+#: layouts/comments.php:174
+msgid "Submit Comment"
+msgstr "Kommentar absenden"
+
+#: layouts/index.php:11
+msgid "Not Found"
+msgstr "Nicht gefunden"
+
+#: layouts/index.php:12
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Oh, du suchst etwas, das es gar nicht gibt."
+
+#: layouts/widgets/search.php:22
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: layouts/search.php:5
+msgid "Search Results for"
+msgstr "Suchergebnisse für"
+
+#: layouts/search.php:13
+msgid "No posts found. Try a different search?"
+msgstr "Keine Beiträge gefunden. Vielleicht nach etwas anderem suchen?"
+
+#: layouts/single.php:19
+#, php-format
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr "<a href=\"%s\">Trackback</a> von deiner Website."
+
+#: layouts/widgets/rss.php:4
+msgid "Read feed"
+msgstr "Feed lesen"
+
+#: layouts/widgets/search.php:14
+msgid "search..."
+msgstr "suchen..."
+
+#: layouts/widgets/search.php:22
+msgid "More Results"
+msgstr "Mehr Ergebnisse"
+
+#: layouts/widgets/search.php:22
+msgid "No results found"
+msgstr "Keine Ergebnisse gefunden"
+
+#: widgets/breadcrumbs/breadcrumbs.php:106
+msgid "Title:"
+msgstr "Titel:"
+
+#: widgets/breadcrumbs/breadcrumbs.php:110
+msgid "Home title:"
+msgstr "Home Titel"
+
+# not used in all themes
+msgid "Written by"
+msgstr "Geschrieben von"
+
+msgid "Published by"
+msgstr "Veröffentlicht von "
+
+msgid "Posted in"
+msgstr "Veröffentlicht in"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Categories"
+msgstr "Kategorien"
+
+msgid "Please update to a modern browser"
+msgstr "Bitte auf einen aktuellen Browser aktualisieren"
+
+msgid "outdatedBrowser_page_message"
+msgstr "Die Seite kann nur mit einem modernen Browser betrachtet werden. Aus Sicherheitsgründen und für eines besseres Erlebnis empfehlen wir, einen der obigen Browser zu installieren. Wer sich dessen bewusst ist, kann dir Seite <a href=\"?forwardOutdatedBrowser=1\">trotzdem besuchen</a>."
+
+msgid "Page not found"
+msgstr "Seite nicht gefunden"
+
+msgid "404_page_message"
+msgstr "Die gewünschte Seite ist nicht mehr verfügbar oder ein anderer Fehler ist aufgetreten. <a href=\"javascript:history.go(-1)\">Zurück</a> oder ab<a href=\"%s\">%s</a> noch mal eine neue Richtung einschlagen."
+

@@ -1,0 +1,260 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 17:23+0100\n"
+"PO-Revision-Date: 2015-03-21 19:45+0800\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.7.5\n"
+
+#: layouts/404.php:3
+msgid "Error 404 - Not Found"
+msgstr "错误 404 - 没有找到"
+
+#: layouts/404.php:4
+msgid "The page you requested does not exist, or has been moved."
+msgstr "你请求的页面不存在，或已被移除"
+
+#: layouts/_pagination.php:43
+msgid "First"
+msgstr "第一"
+
+#: layouts/_pagination.php:63
+msgid "Last"
+msgstr "最后"
+
+#: layouts/_post.php:5 layouts/single.php:10
+#, php-format
+msgid "Written by %s on %s. Posted in %s"
+msgstr "%s 撰写于 %s. 发表在 %s"
+
+#: layouts/_post.php:10
+msgid "Continue Reading"
+msgstr "继续阅读"
+
+#: layouts/_post.php:11
+msgid "No Comments"
+msgstr "无评论"
+
+#: layouts/_post.php:11
+msgid "1 Comment"
+msgstr "1 评论"
+
+#: layouts/_post.php:11
+msgid "% Comments"
+msgstr "% 评论"
+
+#: layouts/_post.php:14 layouts/single.php:14
+msgid "Tags: "
+msgstr "标签: "
+
+#: layouts/_post.php:16 layouts/page.php:12 layouts/single.php:16
+msgid "Edit this post."
+msgstr "编辑这篇文章"
+
+#: layouts/archive.php:8
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "带标签 %s 的文章"
+
+#: layouts/archive.php:10 layouts/archive.php:12 layouts/archive.php:14
+#, php-format
+msgid "Archive for %s"
+msgstr "%s 的存档"
+
+#: layouts/archive.php:16 layouts/author.php:3
+msgid "Author Archive"
+msgstr "作者档案"
+
+#: layouts/archive.php:18
+msgid "Blog Archives"
+msgstr "博客档案"
+
+#: layouts/archive.php:28
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "抱歉，没有文章发表在 %s分类中。"
+
+#: layouts/archive.php:30
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "抱歉，在此日期没有发表文章。"
+
+#: layouts/archive.php:33
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "抱歉，%s 没有发表文章。"
+
+#: layouts/archive.php:35
+msgid "No posts found."
+msgstr "没有找到文章。"
+
+#: layouts/attachment.php:10
+#, php-format
+msgid "Published by %s on %s"
+msgstr "由 %s 发表于 %s"
+
+#: layouts/attachment.php:15
+#, php-format
+msgid "Full size is %s pixels."
+msgstr "完整尺寸是 %s 像素。"
+
+#: layouts/attachment.php:18
+msgid "Link to full-size image"
+msgstr "链接到完整尺寸的图片"
+
+#: layouts/attachment.php:32
+msgid "Edit this attachment."
+msgstr "编辑此附件。"
+
+#: layouts/comments.php:6
+#, php-format
+msgid "Comments (%s)"
+msgstr "评论 (%s)"
+
+#: layouts/comments.php:6
+msgid "Comments are closed"
+msgstr "已关闭评论"
+
+#: layouts/comments.php:47
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s  %2$s"
+
+#: layouts/comments.php:49
+msgid "Edit"
+msgstr "编辑"
+
+#: layouts/comments.php:59
+msgid "Reply"
+msgstr "回复"
+
+#: layouts/comments.php:63
+msgid "Your comment is awaiting moderation."
+msgstr "你的评论等待审核。"
+
+#: layouts/comments.php:90
+msgid "Cancel"
+msgstr "注销"
+
+#: layouts/comments.php:133
+msgid "Leave a comment"
+msgstr "发表评论"
+
+#: layouts/comments.php:136
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "你必须 <a href=\"%s\">登录</a> 才能评论。"
+
+#: layouts/comments.php:146
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "作为 <a href=\"%s\">%s</a> 登录。"
+
+#: layouts/comments.php:146
+msgid "Log out of this account"
+msgstr "登出此账号"
+
+#: layouts/comments.php:146
+msgid "Log out &raquo;"
+msgstr "登出 &raquo;"
+
+#: layouts/comments.php:154
+msgid "Name"
+msgstr "名字"
+
+#: layouts/comments.php:159
+msgid "E-mail"
+msgstr "E-mail"
+
+#: layouts/comments.php:164
+msgid "Website"
+msgstr "网站"
+
+#: layouts/comments.php:174
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: layouts/index.php:11
+msgid "Not Found"
+msgstr "没有找到"
+
+#: layouts/index.php:12
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "抱歉，但你想要的东西不在这里。"
+
+#: layouts/widgets/search.php:22
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: layouts/search.php:5
+msgid "Search Results for"
+msgstr "搜索结果 关于"
+
+#: layouts/search.php:13
+msgid "No posts found. Try a different search?"
+msgstr "没有找到文章。尝试其他搜索方式？"
+
+#: layouts/single.php:19
+#, php-format
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr "<a href=\"%s\">引用</a>自你的网站。"
+
+#: layouts/widgets/rss.php:4
+msgid "Read feed"
+msgstr "阅读 Feed"
+
+#: layouts/widgets/search.php:14
+msgid "search..."
+msgstr "search..."
+
+#: layouts/widgets/search.php:22
+msgid "More Results"
+msgstr "更多的结果"
+
+#: layouts/widgets/search.php:22
+msgid "No results found"
+msgstr "没有找到"
+
+#: widgets/breadcrumbs/breadcrumbs.php:106
+msgid "Title:"
+msgstr "标题："
+
+#: widgets/breadcrumbs/breadcrumbs.php:110
+msgid "Home title:"
+msgstr "首页标题："
+
+# not used in all themes
+msgid "Written by"
+msgstr "撰写："
+
+msgid "Published by"
+msgstr "发表："
+
+msgid "Posted in"
+msgstr "发表在"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Tags"
+msgstr "标签"
+
+msgid "Categories"
+msgstr "分类"
+
+msgid "Please update to a modern browser"
+msgstr "请升级使用现代浏览器"
+
+msgid "outdatedBrowser_page_message"
+msgstr "你正在访问的网站只能在现代浏览器中浏览。请升级你的浏览器，以增强安全性和浏览体验。在以上浏览器中选择一款。如果不介意，请<a href=\"?forwardOutdatedBrowser=1\">点击这里</a>"
+
+msgid "Page not found"
+msgstr "页面没有找到"
+
+msgid "404_page_message"
+msgstr "你正在寻找的页面并不存在或发生其他错误。<a href=\"javascript:history.go(-1)\">返回</a>,，或者前往 <a href=\"%s\">%s</a> 选择一个新方向。"

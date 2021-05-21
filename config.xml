@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <fields name="Settings" icon="uk-icon-cogs">
+        <field type="section" name="Styles" description="Use the customizer to create your own style. You can pick colors, modify sizes and much more with a real time theme preview. Choose the style to be loaded in the layout options." />
+        <field type="customizer" />
+        <field type="section" name="Development" description="Always uncheck following options for your production website." />
+        <field type="checkbox" name="dev_mode" value="1" label="Compile LESS in the browser on every page load." />
+        <field type="checkbox" name="dynamic_style" value="1" label="Allow styles to be loaded by URL. This will override the style originally loaded by the theme." />
+        <field type="compile" />
+        <field type="section" name="Compression" description="Minify CSS and JavaScript into a single file. Use gzip compression and Data URIs to reduce image file requests." />
+        <field type="select" name="compression" default="0">
+            <option value="0">None</option>
+            <option value="1">Minify</option>
+            <option value="2">Minify + Data URIs</option>
+            <option value="3">Minify + Data URIs + Gzip</option>
+        </field>
+        <field type="section" name="Responsive" description="The viewport meta tag controls the layout on mobile browsers. If it's not set, the default width on mobile is 980px and the site will look the same like on desktops." />
+        <field type="checkbox" name="responsive" value="0" label="Disable the viewport meta tag." />
+        <field type="section" name="Posts" description="Create a multi-column blog and format your posts." />
+        <field name="multicolumns" type="select" default="1" description="Set the number of columns on the frontpage.">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </field>
+        <field name="multicolumns_order" type="select" default="1" description="Order posts across or down columns.">
+            <option value="1">Across</option>
+            <option value="0">Down</option>
+        </field>
+        <field type="checkbox" name="wpautop" value="1" label="Enable the wpautop function which automatically formats your posts." />
+        <field type="checkbox" name="post_nav" value="1" label="Enable navigation in post single view" />
+        <field type="section" name="WooCommerce"/>
+        <field type="select" name="woo_posts_per_page" default="default" description="Enter the number of products per page.">
+            <option value="default">default</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </field>
+        <field type="section" name="Content" description="Display specific content elements in the theme." />
+        <field type="checkbox" name="totop_scroller" value="0" label="Hide To-top scroller." />
+        <field type="checkbox" name="warp_branding" value="0" label="Hide Warp branding." />
+        <field type="section" name="Social Buttons" description="Display Tweet, Google+ or Like buttons in your posts to share them in social media." />
+        <field type="checkbox" name="twitter" value="1" label="Show Tweet button." />
+        <field type="checkbox" name="plusone" value="1" label="Show Google+ button." />
+        <field type="checkbox" name="facebook" value="1" label="Show Facebook Like button." />
+        <field type="section" name="Widgets" description="Choose the default widgets style for each position." />
+        <field type="table" name="panel_default">
+            <rows label="Position">
+                <row>top-a</row>
+                <row>top-b</row>
+                <row>bottom-a</row>
+                <row>bottom-b</row>
+                <row>main-top</row>
+                <row>main-bottom</row>
+                <row>sidebar-a</row>
+                <row>sidebar-b</row>
+            </rows>
+            <field type="select" name="panel" label="Style">
+                <option value="uk-panel">Blank</option>
+                <option value="uk-panel uk-panel-box">Box</option>
+                <option value="uk-panel uk-panel-box uk-panel-box-primary">Box Primary</option>
+                <option value="uk-panel uk-panel-box uk-panel-box-secondary">Box Secondary</option>
+                <option value="uk-panel uk-panel-header">Header</option>
+                <option value="uk-panel uk-panel-space">Space</option>
+            </field>
+        </field>
+        <field type="section" name="Additional Scripts" description="Insert your Google Analytics tracking code or any other additional scripts here. They will be added before the closing body tag in the theme." />
+        <field type="textarea" name="tracking_code" class="uk-form-width-large" rows="8" />
+    </fields>
+    <fields name="Layouts" icon="uk-icon-columns">
+        <field type="layouts" name="layouts">
+            <field type="section" name="Style" description="Select which style the layout should load." />
+            <field type="style" name="style" />
+            <field type="section" name="Content" description="Display specific content elements in the theme." />
+            <field type="checkbox" name="system_output" value="0" label="Hide system output." />
+            <field type="checkbox" name="page_title" value="0" label="Hide page title." />
+            <field type="section" name="Sidebars" description="Choose the sidebar widths and align the sidebar to the left or right." />
+            <field type="table" name="sidebars">
+                <rows label="Position">
+                    <row>sidebar-a</row>
+                    <row>sidebar-b</row>
+                </rows>
+                <field type="select" name="width" label="Width">
+                    <option value="12" data-gcf="6">20%</option>
+                    <option value="15" data-gcf="15">25%</option>
+                    <option value="18" data-gcf="6">30%</option>
+                    <option value="20" data-gcf="20">33%</option>
+                    <option value="24" data-gcf="6">40%</option>
+                    <option value="30" data-gcf="3">50%</option>
+                </field>
+                <field type="select" name="alignment" label="Alignment">
+                    <option value="left">Left</option>
+                    <option value="right">Right</option>
+                </field>
+            </field>
+            <field type="section" name="Grid" description="Choose the grid layout for each position. Further, you can enable horizontal dividers and prevent the responsive grid behavior. Note: Both options are not taken into account for the stacked layout." />
+            <field type="table" name="grid">
+                <rows label="Position">
+                    <row>top-a</row>
+                    <row>top-b</row>
+                    <row>bottom-a</row>
+                    <row>bottom-b</row>
+                    <row>main-top</row>
+                    <row>main-bottom</row>
+                </rows>
+                <field type="select" name="layout" label="Layout">
+                    <option value="parallel">Parallel</option>
+                    <option value="stacked">Stacked</option>
+                    <option value="doubled">First doubled</option>
+                </field>
+                <field type="select" name="responsive" label="Responsive" default="medium">
+                    <option value="">Disabled</option>
+                    <option value="medium">Stack on phones</option>
+                    <option value="large">Stack on ≤ tablets</option>
+                </field>
+                <field type="checkbox" name="divider" value="1" column="Divider" />
+            </field>
+        </field>
+    </fields>
+    <fields name="Widgets" icon="uk-icon-th">
+        <field type="widgets" name="widgets">
+            <field type="checkbox" name="title" column="Title" value="1" default="1" center="1" />
+            <field type="assignment" name="assignment" label="Assignment" />
+            <field type="text" name="class" label="Class" class="uk-form-width-small" tooltip="Add custom classes." />
+            <field type="select" name="panel" label="Style" tooltip="Choose widget styles. Set the default widget style in the settings.">
+                <option value="">Default</option>
+                <option value="uk-panel uk-panel-box">Box</option>
+                <option value="uk-panel uk-panel-box uk-panel-box-primary">Box Primary</option>
+                <option value="uk-panel uk-panel-box uk-panel-box-secondary">Box Secondary</option>
+                <option value="uk-panel uk-panel-header">Header</option>
+                <option value="uk-panel uk-panel-space">Space</option>
+                <option value="uk-panel">Blank</option>
+            </field>
+            <field type="text" name="icon" label="Icon" class="uk-form-width-small" tooltip="Add UIkit icon classes or image urls." />
+            <field type="badge" name="badge" label="Badge" tooltip="Set the badge colors and text.">
+                <option value="uk-panel-badge uk-badge">Default</option>
+                <option value="uk-panel-badge uk-badge uk-badge-success">Success</option>
+                <option value="uk-panel-badge uk-badge uk-badge-warning">Warning</option>
+                <option value="uk-panel-badge uk-badge uk-badge-danger">Danger</option>
+            </field>
+            <field name="display" type="display" label="Display" tooltip="Display or hide widgets on certain devices." />
+        </field>
+    </fields>
+    <fields name="Menus" icon="uk-icon-bars">
+        <field type="menus">
+            <field type="select" name="columns" default="1" label="Columns" max-depth="1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </field>
+            <field type="text" name="columnwidth" label="Column Width" class="uk-form-width-small" placeholder="px" max-depth="1" />
+            <field type="text" name="icon" label="Icon" class="uk-form-width-small" tooltip="Add UIkit icon classes or image urls." />
+            <field type="text" name="subtitle" label="Subtitle" class="uk-form-width-small" tooltip="Add subtitles tu menu items." />
+        </field>
+    </fields>
+    <fields name="Information" icon="uk-icon-info-circle">
+        <field type="section" name="Versions" description="This theme is based on the Warp framework. Always keep the theme and the Warp framework up-to-date." />
+        <field type="info" />
+        <field type="section" name="System Check" />
+        <field type="check" />
+        <field type="section" name="File Verification" />
+        <field type="verify" />
+    </fields>
+</config>

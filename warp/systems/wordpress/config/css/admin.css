@@ -1,0 +1,36 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+/*
+ * Component:        WordPress
+ * Description:      Defines WordPress specific styles for the Warp admininistration
+ ========================================================================== */
+
+
+/* Layout
+ ========================================================================== */
+
+#warp { margin: 20px 20px 0 0; }
+
+.tm-form-save { padding: 25px 0;}
+
+
+/* Customizer
+ ========================================================================== */
+
+.cm-open #wpadminbar { display: none; }
+
+
+/* Modules
+ ========================================================================== */
+
+/*
+ * Assign select
+ */
+
+.tm-assign-select {
+    height: 200px !important;
+    max-width: 200px !important;
+    padding: 0;
+}
+.tm-assign-select optgroup { margin: 8px 0; }
+.tm-assign-select option { margin: 2px 0; }

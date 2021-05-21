@@ -1,0 +1,384 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Metro.press v1.9.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-01-06 22:34:11+0000\n"
+"Last-Translator: djvnsk <djvnsk@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:13
+#@ warp
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+#: 404.php:13
+#@ warp
+msgid "404_page_message"
+msgstr "Запрашиваемая Вами страница не найдена, либо произошла ошибка."
+
+#: layouts/_pagination.php:54
+#: layouts/_pagination.php:74
+#@ warp
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: layouts/_post.php:16
+#: layouts/single.php:21
+#, php-format
+#@ warp
+msgid "%s<span class=\"meta-date\">on %s</span><span class=\"meta-category\">in %s</span>"
+msgstr "%s<span class=\"meta-date\">%s</span><span class=\"meta-category\">%s</span>"
+
+#: layouts/_post.php:19
+#: layouts/single.php:25
+#@ warp
+msgid "<span class=\"meta-comment\">No Comments</span>"
+msgstr "<span class=\"meta-comment\">Комментариев нет</span>"
+
+#: layouts/_post.php:19
+#: layouts/single.php:25
+#@ warp
+msgid "<span class=\"meta-comment\">1 Comment</span>"
+msgstr "<span class=\"meta-comment\">1 Комментарий</span>"
+
+#: layouts/_post.php:19
+#: layouts/single.php:25
+#@ warp
+msgid "<span class=\"meta-comment\">% Comments</span>"
+msgstr "<span class=\"meta-comment\">% Комментариев</span>"
+
+#: layouts/_post.php:37
+#@ warp
+msgid "Read More ___"
+msgstr "Продолжить чтение ___"
+
+#: layouts/_post.php:40
+#: layouts/page.php:18
+#: layouts/single.php:44
+#@ warp
+msgid "Edit This Post ___"
+msgstr "Редактировать запись ___"
+
+#: layouts/comments.php:6
+#, php-format
+#@ warp
+msgid "Comments: %s"
+msgstr "Комментарии: %s"
+
+#: layouts/comments.php:6
+#: warp/systems/wordpress/layouts/comments.php:6
+#@ warp
+msgid "Comments are closed"
+msgstr "Комментирование закрыто"
+
+#: layouts/comments.php:47
+#: warp/systems/wordpress/layouts/comments.php:47
+#, php-format
+#@ warp
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#: layouts/comments.php:49
+#: warp/systems/wordpress/layouts/comments.php:49
+#@ default
+msgid "Edit"
+msgstr "Редактировать"
+
+#: layouts/comments.php:59
+#@ warp
+msgid "Reply ___"
+msgstr "Комментировать ___"
+
+#: layouts/comments.php:63
+#: warp/systems/wordpress/layouts/comments.php:63
+#@ warp
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки модератора."
+
+#: layouts/comments.php:85
+#: warp/systems/wordpress/layouts/comments.php:85
+#@ warp
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+#: layouts/comments.php:88
+#: warp/systems/wordpress/layouts/comments.php:88
+#, php-format
+#@ warp
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Вы должны <a href=\"%s\">войти</a> чтобы оставить комментарий."
+
+#: layouts/comments.php:97
+#: warp/systems/wordpress/layouts/comments.php:97
+#, php-format
+#@ warp
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "Вы вошли как <a href=\"%s\">%s</a>."
+
+#: layouts/comments.php:97
+#: warp/systems/wordpress/layouts/comments.php:97
+#@ warp
+msgid "Log out of this account"
+msgstr "Выйти из текущей учетной записи"
+
+#: layouts/comments.php:97
+#@ warp
+msgid "Log out"
+msgstr "Выйти"
+
+#: layouts/comments.php:104
+#: warp/systems/wordpress/layouts/comments.php:104
+#@ warp
+msgid "Name"
+msgstr "Имя"
+
+#: layouts/comments.php:108
+#: warp/systems/wordpress/layouts/comments.php:108
+#@ warp
+msgid "E-mail"
+msgstr "E-mail"
+
+#: layouts/comments.php:112
+#: warp/systems/wordpress/layouts/comments.php:112
+#@ warp
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: layouts/comments.php:122
+#: warp/systems/wordpress/layouts/comments.php:122
+#@ warp
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: layouts/comments.php:148
+#: warp/systems/wordpress/layouts/comments.php:148
+#@ default
+msgid "Cancel"
+msgstr "Отмена"
+
+#: layouts/search.php:5
+#: warp/systems/wordpress/layouts/search.php:5
+#@ warp
+msgid "Search Results for"
+msgstr "Результаты поиска"
+
+#: layouts/search.php:13
+#: warp/systems/wordpress/layouts/search.php:13
+#@ warp
+msgid "No posts found. Try a different search?"
+msgstr "Ничего не найдено, попробуйте изменить запрос."
+
+#: layouts/single.php:27
+#, php-format
+#@ warp
+msgid "<a href=\"%s\">Trackbacks</a>"
+msgstr "<a href=\"%s\">Трекбэки</a>"
+
+#: layouts/single.php:45
+#@ warp
+msgid "Tags ___ "
+msgstr "Теги ___ "
+
+#: layouts/widgets/search.php:26
+#: warp/systems/wordpress/layouts/mobile/search.php:2
+#: warp/systems/wordpress/layouts/widgets/search.php:18
+#@ warp
+msgid "search..."
+msgstr "искать..."
+
+#: layouts/widgets/search.php:33
+#: warp/systems/wordpress/layouts/widgets/search.php:25
+#@ warp
+msgid "Search Results"
+msgstr "Результаты поиска"
+
+#: layouts/widgets/search.php:33
+#: warp/systems/wordpress/layouts/widgets/search.php:25
+#@ warp
+msgid "More Results"
+msgstr "Показать все результаты"
+
+#: layouts/widgets/search.php:33
+#: warp/systems/wordpress/layouts/widgets/search.php:25
+#@ warp
+msgid "No results found"
+msgstr "Ничего не найдено"
+
+#: warp/systems/wordpress/layouts/_pagination.php:49
+#@ warp
+msgid "First"
+msgstr "Первый"
+
+#: warp/systems/wordpress/layouts/_pagination.php:69
+#@ warp
+msgid "Last"
+msgstr "Последний"
+
+#: warp/systems/wordpress/layouts/_post.php:11
+#: warp/systems/wordpress/layouts/single.php:15
+#, php-format
+#@ warp
+msgid "Written by %s on %s. Posted in %s"
+msgstr "Автор %s в %s. Опубликовано %s"
+
+#: warp/systems/wordpress/layouts/_post.php:29
+#@ warp
+msgid "Continue Reading"
+msgstr "Продолжить чтение"
+
+#: warp/systems/wordpress/layouts/_post.php:30
+#@ warp
+msgid "No Comments"
+msgstr "Комментариев нет"
+
+#: warp/systems/wordpress/layouts/_post.php:30
+#@ warp
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+#: warp/systems/wordpress/layouts/_post.php:30
+#@ warp
+msgid "% Comments"
+msgstr "% Комментариев"
+
+#: warp/systems/wordpress/layouts/_post.php:33
+#: warp/systems/wordpress/layouts/page.php:16
+#: warp/systems/wordpress/layouts/single.php:25
+#@ warp
+msgid "Edit this post."
+msgstr "Редактировать запись"
+
+#: warp/systems/wordpress/layouts/archive.php:8
+#, php-format
+#@ warp
+msgid "Posts Tagged %s"
+msgstr "Posts Tagged %s"
+
+#: warp/systems/wordpress/layouts/archive.php:10
+#: warp/systems/wordpress/layouts/archive.php:12
+#: warp/systems/wordpress/layouts/archive.php:14
+#, php-format
+#@ warp
+msgid "Archive for %s"
+msgstr "Archive for %s"
+
+#: warp/systems/wordpress/layouts/archive.php:16
+#: warp/systems/wordpress/layouts/author.php:3
+#@ warp
+msgid "Author Archive"
+msgstr "Author Archive"
+
+#: warp/systems/wordpress/layouts/archive.php:18
+#@ warp
+msgid "Blog Archives"
+msgstr "Blog Archives"
+
+#: warp/systems/wordpress/layouts/archive.php:28
+#, php-format
+#@ warp
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Извините, в категории %s нет ни одной записи."
+
+#: warp/systems/wordpress/layouts/archive.php:30
+#@ warp
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Извините, в этот день не было опубликовано ни одной записи."
+
+#: warp/systems/wordpress/layouts/archive.php:33
+#, php-format
+#@ warp
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Извините, %s не опубликовал ни одной записи."
+
+#: warp/systems/wordpress/layouts/archive.php:35
+#@ warp
+msgid "No posts found."
+msgstr "Ничего не найдено."
+
+#: warp/systems/wordpress/layouts/attachment.php:15
+#, php-format
+#@ warp
+msgid "Published by %s on %s"
+msgstr "Опубликовано %s в %s"
+
+#: warp/systems/wordpress/layouts/attachment.php:21
+#, php-format
+#@ warp
+msgid "Full size is %s pixels."
+msgstr "Полный размер %s пикселей."
+
+#: warp/systems/wordpress/layouts/attachment.php:24
+#@ warp
+msgid "Link to full-size image"
+msgstr "Ссылка на полноразмерное изображение"
+
+#: warp/systems/wordpress/layouts/attachment.php:40
+#@ warp
+msgid "Edit this attachment."
+msgstr "Редактировать вложение."
+
+#: warp/systems/wordpress/layouts/comments.php:6
+#, php-format
+#@ warp
+msgid "Comments (%s)"
+msgstr "Комментарии (%s)"
+
+#: warp/systems/wordpress/layouts/comments.php:59
+#@ warp
+msgid "Reply"
+msgstr "Ответить"
+
+#: warp/systems/wordpress/layouts/comments.php:97
+#@ warp
+msgid "Log out &raquo;"
+msgstr "Выйти &raquo;"
+
+#: warp/systems/wordpress/layouts/index.php:11
+#@ warp
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: warp/systems/wordpress/layouts/index.php:12
+#@ warp
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Извините, но Вы ищете что-то, чего здесь нет."
+
+#: warp/systems/wordpress/layouts/single.php:23
+#@ warp
+msgid "Tags: "
+msgstr "Теги: "
+
+#: warp/systems/wordpress/layouts/single.php:28
+#, php-format
+#@ warp
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr "<a href=\"%s\">Трекбэк</a> с Вашего сайта."
+
+#: warp/systems/wordpress/layouts/widgets/rss.php:4
+#@ default
+msgid "Read feed"
+msgstr "Читать ленту"
+
+#: warp/systems/wordpress/widgets/breadcrumbs/breadcrumbs.php:112
+#@ warp
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: warp/systems/wordpress/widgets/breadcrumbs/breadcrumbs.php:116
+#@ warp
+msgid "Home title:"
+msgstr "Home title:"
+

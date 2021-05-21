@@ -1,0 +1,269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION 2012\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-02 17:23+0100\n"
+"PO-Revision-Date: 2012-07-13 16:50+0100\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE Sweden <marcus@walfridssons.se>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Swedish\n"
+
+#: layouts/404.php:3
+msgid "Error 404 - Not Found"
+msgstr "Felmeddelande 404 - Sidan hittades inte"
+
+#: layouts/404.php:4
+msgid "The page you requested does not exist, or has been moved."
+msgstr "Sidan du söker efter finns inte eller har flyttats."
+
+#: layouts/_pagination.php:43
+msgid "First"
+msgstr "Första"
+
+#: layouts/_pagination.php:63
+msgid "Last"
+msgstr "Sista"
+
+#: layouts/_post.php:5
+#: layouts/single.php:10
+#, php-format
+msgid "Written by %s on %s. Posted in %s"
+msgstr "Skrivet av %s på %s Postad i %s"
+
+#: layouts/_post.php:10
+msgid "Continue Reading"
+msgstr "Läs mer"
+
+#: layouts/_post.php:11
+msgid "No Comments"
+msgstr "Inga kommentarer"
+
+#: layouts/_post.php:11
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: layouts/_post.php:11
+msgid "% Comments"
+msgstr "% Kommentarer"
+
+#: layouts/_post.php:14
+#: layouts/single.php:14
+msgid "Tags: "
+msgstr "Taggar:"
+
+#: layouts/_post.php:16
+#: layouts/page.php:12
+#: layouts/single.php:16
+msgid "Edit this post."
+msgstr "Ändra i posten."
+
+#: layouts/archive.php:8
+#, php-format
+msgid "Posts Tagged %s"
+msgstr "Poster taggade %s"
+
+#: layouts/archive.php:10
+#: layouts/archive.php:12
+#: layouts/archive.php:14
+#, php-format
+msgid "Archive for %s"
+msgstr "Arkiv för %s"
+
+#: layouts/archive.php:16
+#: layouts/author.php:3
+msgid "Author Archive"
+msgstr "Författar Arkiv"
+
+#: layouts/archive.php:18
+msgid "Blog Archives"
+msgstr "Blogg Arkiv"
+
+#: layouts/archive.php:28
+#, php-format
+msgid "Sorry, but there aren't any posts in the %s category yet."
+msgstr "Tyvärr, det finns inga poster i %s kategorin ännu."
+
+#: layouts/archive.php:30
+msgid "Sorry, but there aren't any posts with this date."
+msgstr "Tyvärr, det finns inga poster med det här datumet."
+
+#: layouts/archive.php:33
+#, php-format
+msgid "Sorry, but there aren't any posts by %s yet."
+msgstr "Tyvärr, det finns inga poster av %s ännu."
+
+#: layouts/archive.php:35
+msgid "No posts found."
+msgstr "Inga poster hittade."
+
+#: layouts/attachment.php:10
+#, php-format
+msgid "Published by %s on %s"
+msgstr "Publicerat av %s på %s"
+
+#: layouts/attachment.php:15
+#, php-format
+msgid "Full size is %s pixels."
+msgstr "Originalstorleken är %s pixlar"
+
+# fea
+#: layouts/attachment.php:18
+msgid "Link to full-size image"
+msgstr "Länk till bildens originalstorlek"
+
+#: layouts/attachment.php:32
+msgid "Edit this attachment."
+msgstr "Ändra bifogad fil."
+
+#: layouts/comments.php:6
+#, php-format
+msgid "Comments (%s)"
+msgstr "Kommentarer (%s)"
+
+#: layouts/comments.php:6
+msgid "Comments are closed"
+msgstr "Kommentarer avstängda"
+
+#: layouts/comments.php:47
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s på %2$s"
+
+#: layouts/comments.php:49
+msgid "Edit"
+msgstr "Ändra"
+
+#: layouts/comments.php:59
+msgid "Reply"
+msgstr "Svara"
+
+#: layouts/comments.php:63
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar väntar på godkännande."
+
+#: layouts/comments.php:90
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: layouts/comments.php:133
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#: layouts/comments.php:136
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Du måste vara <a href=\"%s\">inloggad</a> för att skriva kommentarer."
+
+#: layouts/comments.php:146
+#, php-format
+msgid "Logged in as <a href=\"%s\">%s</a>."
+msgstr "Inloggad som <a href=\"%s\">%s</a>."
+
+#: layouts/comments.php:146
+msgid "Log out of this account"
+msgstr "Logga ut från det här kontot"
+
+#: layouts/comments.php:146
+msgid "Log out &raquo;"
+msgstr "Logga ut &raquo;"
+
+#: layouts/comments.php:154
+msgid "Name"
+msgstr "Namn"
+
+#: layouts/comments.php:159
+msgid "E-mail"
+msgstr "E-post"
+
+#: layouts/comments.php:164
+msgid "Website"
+msgstr "Hemsida"
+
+#: layouts/comments.php:174
+msgid "Submit Comment"
+msgstr "Lägg till Kommentar"
+
+#: layouts/index.php:11
+msgid "Not Found"
+msgstr "Hittades inte"
+
+#: layouts/index.php:12
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Tyvärr finns det du söker efter något som inte finns."
+
+#: layouts/widgets/search.php:22
+msgid "Search Results"
+msgstr "Sökresultat"
+
+#: layouts/search.php:5
+msgid "Search Results for"
+msgstr "Sökresultat för"
+
+#: layouts/search.php:13
+msgid "No posts found. Try a different search?"
+msgstr "Inga poster hittades. Prova att omformulera din sökniing"
+
+#: layouts/single.php:19
+#, php-format
+msgid "<a href=\"%s\">Trackback</a> from your site."
+msgstr "<a href=\"%s\">Spåra</a> från din sida."
+
+#: layouts/widgets/rss.php:4
+msgid "Read feed"
+msgstr "Läs det här flödet"
+
+#: layouts/widgets/search.php:14
+msgid "search..."
+msgstr "sök..."
+
+#: layouts/widgets/search.php:22
+msgid "More Results"
+msgstr "Fler resultat"
+
+#: layouts/widgets/search.php:22
+msgid "No results found"
+msgstr "Inga resultat hittades"
+
+#: widgets/breadcrumbs/breadcrumbs.php:106
+msgid "Title:"
+msgstr "Titel:"
+
+#: widgets/breadcrumbs/breadcrumbs.php:110
+msgid "Home title:"
+msgstr "Hem titel:"
+
+# not used in all themes
+msgid "Written by"
+msgstr "Skrivet av"
+
+msgid "Published by"
+msgstr "Publicerad den"
+
+msgid "Posted in"
+msgstr "Postad i"
+
+msgid "Author"
+msgstr "Författare"
+
+msgid "Tags"
+msgstr "Taggar"
+
+msgid "Categories"
+msgstr "Kategorier"
+
+msgid "Please update to a modern browser"
+msgstr "Var snäll och uppdatera till en modernare webbläsare"
+
+msgid "outdatedBrowser_page_message"
+msgstr "Sidan du besöker kan bara ses korrekt med en modern webbläsare. Var snäll och uppdatera din webbläsares version för bättre säkerhet och webbupplevelse. Välj en av webbläsarna här ovan. Är detta inget du bryr dig om <a href=\"?forwardie6=1\">klicka här</a>"
+
+msgid "Page not found"
+msgstr "Sidan hittades inte"
+
+msgid "404_page_message"
+msgstr "Sidan du söker efter finns inte eller så har ett fel inträffat. <a href=\"javascript:history.go(-1)\">Gå tillbaka</a>, eller besök <a href=\"%s\">%s</a> för att välja ett annat alternativ."
+
